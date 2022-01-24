@@ -1,0 +1,9 @@
+a.nav-link.active {
+   border-top-style: solid;
+   border-bottom-style: solid;
+   border-color: lightgray;
+}
+a.dropdown-item:hover {
+    border-bottom-style: solid;
+    background-color: white;
+}
