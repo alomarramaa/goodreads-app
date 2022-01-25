@@ -4,6 +4,12 @@
     outline-width: 10px;
 }
 
-div {
+body {
     background-color: F7F2EC;
   }
+
+  
+ a.dropdown-item:hover {
+     border-bottom-style: solid;
+     background-color: white;
+ }
