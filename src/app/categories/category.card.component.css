@@ -4,16 +4,35 @@ border-style: none;
 
   .ChoiceAwards{
     position: absolute;
-    top: 20em;
+    top: 10em;
     right: 0;
     background-color: #32362D;
   }
   .card-banner{
     position: absolute;
-    top: 22.5em;
+    top: 10em;
     right: 7.5em;
     font-weight: bold;
     font-size: 13px;
   }
 
+  .book-banner{
+    position: absolute;
+    top: 0em;
+  left: 5em;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  a:link {
+    color: black;
+    font-weight: 600;
+    background-color: transparent; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
