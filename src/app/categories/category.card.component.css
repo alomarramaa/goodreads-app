@@ -23,6 +23,16 @@ border-style: none;
     font-weight: bold;
     font-size: 13px;
   }
+  .author-link:link{
+    color: black;
+    font-weight: normal;
+    background-color: transparent; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .author-link:hover{
+    text-decoration: underline;
+  }
+  
   a:link {
     color: black;
     font-weight: 600;
@@ -35,4 +45,3 @@ border-style: none;
     background-color: transparent;
     text-decoration: underline;
   }
-
