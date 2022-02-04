@@ -1,7 +1,12 @@
 .card{
   border-style: none;
   }
-  
+  .black-history-month-banner{
+    border-style: ridge;
+    position: absolute;
+    top: 7em;
+    right: 25em;
+  }
     .ChoiceAwards{
       position: absolute;
       top: 10em;
@@ -43,5 +48,7 @@
     .author:hover{
       text-decoration: underline;
     }
-    
+    .banner-title{
+      font-weight: 440;
+    }
   
