@@ -2,7 +2,9 @@
   border-style: none;
   }
   .black-history-month-banner{
-    border-style: ridge;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #D8D8D8;
     position: absolute;
     top: 7em;
     right: 25em;

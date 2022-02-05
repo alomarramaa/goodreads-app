@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {TopNavBarComponent} from 'src/app/driver/topnavbar.component';
 import { AppComponent } from './app.component';
+import { HorizontalCardComponent } from './books/horizontal.card.component';
+import { VerticalCardComponent } from './books/vertical.card.component';
 import { CategoryCardComponent } from './categories/category.card.component';
 import { footerComponent } from './driver/footer/footer.component';
 
@@ -10,7 +12,9 @@ import { footerComponent } from './driver/footer/footer.component';
     AppComponent,
     TopNavBarComponent,
     footerComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    VerticalCardComponent,
+    HorizontalCardComponent
   ],
   imports: [
     BrowserModule
