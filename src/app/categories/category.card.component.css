@@ -42,11 +42,11 @@
       text-decoration: underline;
     }
     .author:link{
-     color: black;
-      font-weight: normal;
-      background-color: transparent; 
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      color: purple;
+       font-weight: normal;
+       background-color: transparent; 
+       font-family: Arial, Helvetica, sans-serif;
+     }
     .author:hover{
       text-decoration: underline;
     }

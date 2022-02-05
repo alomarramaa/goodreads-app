@@ -1,0 +1,15 @@
+.card{
+    width: 8em;
+    border-style: none;
+}
+.link{
+    position: absolute;
+    top: 18em;
+    color: teal;
+    font-size:small;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
