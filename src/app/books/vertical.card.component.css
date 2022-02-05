@@ -1,12 +1,22 @@
 .card{
-    width: 7em;
+    width: 8em;
     border-style: none;
 }
-.button{
-    background-color: green;
-    position: ab;
-}
 .link{
+    position: absolute;
+    top: 18em;
 color: teal;
 font-size:small;
+text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+.btn{
+    background-color: #409D68;
+    position: absolute;
+    top: 18.5em;
+    right: 2em;
+    font-size: 10.5px;
 }
