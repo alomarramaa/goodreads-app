@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component} from "@angular/core";
 
 @Component({
     selector: 'app-category-card',
@@ -6,14 +6,5 @@ import { Component, Input } from "@angular/core";
     styleUrls:['category.card.component.css']
 })
 export class CategoryCardComponent{
-    @Input()
-    img: string;
-    title: string;
-    author: string;
-
-    constructor(){
-        this.img = "";
-        this.title = "Missing title";
-        this.author = "Missing author";
-    }
+   
 }
