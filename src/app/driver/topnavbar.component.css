@@ -2,10 +2,12 @@
     outline-style: solid;
     outline-color:brown;
     outline-width: 10px;
+
 }
 
 body {
-    background-color: F7F2EC;
+    background-color: #F7F2EC;
+    border-bottom: black;
   }
 
   
@@ -15,6 +17,11 @@ body {
  }
  .icon-color{
      fill: #B9AD9A;
+ }
+
+ .navbar {
+    background-color: #F7F6F2;
+    
  }
 
  
