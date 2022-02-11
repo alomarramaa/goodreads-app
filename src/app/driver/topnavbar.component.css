@@ -14,13 +14,19 @@ background-color: #B8BFFD;
  }
  .form-control{
     width: 400px;
-    height: 30px
+    height: 30px;
+
  }
  .input-group-text, .form-control{
      position: relative;
      top: 0.45em;
- }
 
+ }
+.bi{
+    position: relative;
+    top: 1em;
+    right: 1em;
+}
 .gr{
     outline-style: solid;
     outline-color:brown;
@@ -34,6 +40,7 @@ background-color: #B8BFFD;
 background-color: #382110;
 
  } 
+ 
 
  a.dropdown-item:hover {
      border-bottom-style: solid;
