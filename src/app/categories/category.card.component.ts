@@ -8,8 +8,12 @@ import { Component, Input} from "@angular/core";
 export class CategoryCardComponent{
   @Input() title: string;
   @Input() author: string;
+  @Input() img: string;
+
    constructor(){
        this.title = "Missing title";
        this.author = "Missing author";
+       this.img = "";
+ 
    }
 }

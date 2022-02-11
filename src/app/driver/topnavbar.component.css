@@ -1,16 +1,40 @@
+.header{
+background-color: #B8BFFD;
+}
+
+.navbar {
+    background-color: #F4F1EA;
+    border-bottom-style: solid;
+    border-top: none;
+    border-bottom: 2px solid #DDDBD7;;
+    max-height: 80px !important;
+ }
+ .input-group-text{
+     height: 30px;
+ }
+ .form-control{
+    width: 400px;
+    height: 30px
+ }
+ .input-group-text, .form-control{
+     position: relative;
+     top: 0.45em;
+ }
+
 .gr{
     outline-style: solid;
     outline-color:brown;
     outline-width: 10px;
 
 }
+.nav-link active:hover{
+    color: #DDDBD7;
+}
+ .nav-item:hover{
+background-color: #382110;
 
-body {
-    background-color: #F7F2EC;
-    border-bottom: black;
-  }
+ } 
 
-  
  a.dropdown-item:hover {
      border-bottom-style: solid;
      background-color: white;
@@ -19,9 +43,8 @@ body {
      fill: #B9AD9A;
  }
 
- .navbar {
-    background-color: #F7F6F2;
-    
- }
+
+
+
 
  

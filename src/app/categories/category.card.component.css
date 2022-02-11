@@ -1,5 +1,26 @@
 .card{
   border-style: none;
+  position: relative;
+  top: 1.75em;
+  left: 2em;
+  }
+
+  .img-fluid {
+    width: 70%;
+  }
+  .btn{
+    position: relative;
+    bottom: 2em;
+    width: 100px;
+     height: 25px;
+    font-size: x-small;
+       
+  }
+
+  .card-body{
+    position: relative;
+    bottom: 1.25em;
+    right: 1em;
   }
   .black-history-month-banner{
     border-style: solid;
@@ -25,7 +46,7 @@
   
     .book-banner{
       position: absolute;
-      top: 0em;
+      top: 3em;
       left: 5em;
       font-weight: bold;
       font-size: 13px;
@@ -34,7 +55,7 @@
       color: black;
       font-weight: 600;
       text-decoration: none;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     }
     a:hover {
       color: black;
@@ -45,12 +66,15 @@
       color: black;
        font-weight: normal;
        background-color: transparent; 
-       font-family: Arial, Helvetica, sans-serif;
+       font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+       position: relative;
+       bottom: 2em;
      }
     .author:hover{
       text-decoration: underline;
     }
     .banner-title{
       font-weight: 440;
+      text-align: center;
     }
   
