@@ -1,13 +1,23 @@
-.header{
-background-color: #B8BFFD;
-}
 
 .navbar {
     background-color: #F4F1EA;
     border-bottom-style: solid;
     border-top: none;
-    border-bottom: 2px solid #DDDBD7;;
+    border-bottom: 1px solid #DDDBD7;;
     max-height: 80px !important;
+ }
+ .black-history-month-icon{
+   position: relative;
+   top: 0.25em;
+   left: 28em;
+ }
+ .top-navbar-text{
+     position: relative;
+     bottom: 1em;
+     left: 33em;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+     font-weight: 400;
  }
  .input-group-text{
      height: 30px;
@@ -22,6 +32,11 @@ background-color: #B8BFFD;
      top: 0.45em;
 
  }
+ .top-navbar{
+background-color:  #B8BFFD !important;
+height: 40px;
+ }
+
  
  .icon-color{
      position: relative;
@@ -31,6 +46,8 @@ background-color: #B8BFFD;
     position: relative;
     top: 1em;
     right: 1.5em;
+    fill: #A8A8A8;
+        
 }
 .gr{
     outline-style: solid;
