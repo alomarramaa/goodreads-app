@@ -22,6 +22,7 @@ background-color: #B8BFFD;
      top: 0.45em;
 
  }
+ 
  .icon-color{
      position: relative;
      bottom: 1em;
@@ -29,7 +30,7 @@ background-color: #B8BFFD;
 .bi{
     position: relative;
     top: 1em;
-    right: 1em;
+    right: 1.5em;
 }
 .gr{
     outline-style: solid;
@@ -37,8 +38,8 @@ background-color: #B8BFFD;
     outline-width: 10px;
 
 }
-.nav-link active:hover{
-    color: #DDDBD7;
+.nav-link:hover{
+   color: white !important;
 }
  .nav-item:hover{
 background-color: #382110;
@@ -49,6 +50,7 @@ background-color: #382110;
  a.dropdown-item:hover {
      border-bottom-style: solid;
      background-color: white;
+     text-decoration: underline;
  }
  .icon-color{
      fill: #B9AD9A;
