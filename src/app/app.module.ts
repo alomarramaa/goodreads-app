@@ -6,6 +6,7 @@ import { HorizontalCardComponent } from './books/horizontal.card.component';
 import { VerticalCardComponent } from './books/vertical.card.component';
 import { CategoryCardComponent } from './categories/category.card.component';
 import { footerComponent } from './driver/footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { footerComponent } from './driver/footer/footer.component';
     HorizontalCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

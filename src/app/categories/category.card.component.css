@@ -5,6 +5,7 @@
   top: 1.75em;
   left: 2em;
   background-color: #F9F7F3;
+  
   }
 
   .img-fluid {
@@ -31,6 +32,7 @@
     position: absolute;
     top: 7em;
     right: 25em;
+    background-color: white;
   }
     .ChoiceAwards{
       position: absolute;

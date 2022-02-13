@@ -11,6 +11,9 @@
    top: 0.25em;
    left: 28em;
  }
+ .nav-link{
+    color:#382110 !important;
+}
  .top-navbar-text{
      position: relative;
      bottom: 1em;
@@ -62,6 +65,7 @@ height: 40px;
 background-color: #382110;
 
  } 
+ 
  
 
  a.dropdown-item:hover {
