@@ -1,0 +1,38 @@
+
+
+    
+
+
+
+
+
+<body>
+<div class="container-fluid">
+<div *ngFor="let category of category_list">
+<app-category-card title={{category.title}} author={{category.author}} img={{category.img}}>Loading...</app-category-card>
+</div>
+
+
+
+<div class="container-fluid d-flex flex-row">
+    <app-vertical-card img="./assets/assassins-blade_book.jpeg">Loading...</app-vertical-card>
+    <app-vertical-card img="./assets/these-violent-delights_book.jpeg">Loading...</app-vertical-card>
+    <app-vertical-card img="./assets/from-blood-and-ash_book.jpeg">Loading...</app-vertical-card>
+    <app-vertical-card img="./assets/crescent-city_book.jpeg"> Loading...</app-vertical-card>
+    <app-vertical-card img="./assets/strange-the-dreamer_book.jpeg"> Loading...</app-vertical-card>
+</div>
+
+<div class="container-fluid d-flex">
+    <app-horizontal-card> Loading...</app-horizontal-card>
+    <app-horizontal-card> Loading...</app-horizontal-card>
+</div>
+
+<div class="container-fluid d-flex flex-row">
+<div *ngFor="let product of products">
+    <app-vertical-card img={{product.img}}> Loading... </app-vertical-card>
+</div>
+</div>
+
+
+
+

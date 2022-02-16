@@ -7,15 +7,19 @@ import { VerticalCardComponent } from './books/vertical.card.component';
 import { CategoryCardComponent } from './categories/category.card.component';
 import { footerComponent } from './driver/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowseRecommendationsLayoutComponent } from './books/browse-recommendations-layout.component';
+import { HomeLayoutComponent } from './books/home-layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     footerComponent,
-    CategoryCardComponent,
+    CategoryCardComponent, 
     VerticalCardComponent,
-    HorizontalCardComponent
+    HorizontalCardComponent,
+    BrowseRecommendationsLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,
