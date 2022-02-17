@@ -1,2 +1,8 @@
 
-This is the browse recoomendations.
+
+
+<div class="container-fluid d-flex flex-row">
+    <div *ngFor="let product of products">
+        <app-vertical-card img={{product.img}}> Loading... </app-vertical-card>
+    </div>
+    </div>

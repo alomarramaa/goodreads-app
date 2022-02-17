@@ -9,6 +9,9 @@ import { footerComponent } from './driver/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowseRecommendationsLayoutComponent } from './books/browse-recommendations-layout.component';
 import { HomeLayoutComponent } from './books/home-layout.component';
+import { BrowseChoiceAwardsComponent } from './books/browse-choice-awards.component';
+import { MyBooksComponent } from './books/my-books.component';
+import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { HomeLayoutComponent } from './books/home-layout.component';
     VerticalCardComponent,
     HorizontalCardComponent,
     BrowseRecommendationsLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    BrowseChoiceAwardsComponent,
+    MyBooksComponent,
+    BrowseGiveawaysComponent
   ],
   imports: [
     BrowserModule,

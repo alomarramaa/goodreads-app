@@ -3,11 +3,17 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowseRecommendationsLayoutComponent } from './books/browse-recommendations-layout.component';
 import { HomeLayoutComponent } from './books/home-layout.component';
+import { BrowseChoiceAwardsComponent} from './books/browse-choice-awards.component';
+import { MyBooksComponent } from './books/my-books.component';
+import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 
 const routes: Routes = [
   { path: '', component: HomeLayoutComponent },
   { path: 'Browse-Recommendations', component: BrowseRecommendationsLayoutComponent },
-  { path: 'home', component: HomeLayoutComponent }
+  { path: 'Home', component: HomeLayoutComponent },
+  { path: 'Browse-Choice-Awards', component: BrowseChoiceAwardsComponent},
+  { path: 'My-Books', component: MyBooksComponent},
+  { path: 'Browse-Giveaways', component: BrowseGiveawaysComponent}
 ];
 
 @NgModule({

@@ -1,4 +1,17 @@
 
+.dropdown-item{
+    position: relative;
+    top: 0.25em;
+}
+.dropdown-item:hover{
+    background-color: #382110 !important;
+    color: white !important;
+    
+}
+.dropdown-item:visited,:active{
+    background-color: #382110 !important;
+}
+
 .navbar {
     background-color: #F4F1EA;
     border-bottom-style: solid;
@@ -59,12 +72,10 @@ height: 40px;
 
 }
 .nav-link:hover{
-   color: white !important;
+    background-color: #382110;
+    color: white !important;
 }
- .nav-item:hover{
-background-color: #382110;
 
- } 
  
  
 
