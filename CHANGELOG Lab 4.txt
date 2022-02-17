@@ -1,0 +1,17 @@
+﻿* Main features:
+   1. Created a layout component named “my-books.”
+   2. Created a layout component named “browse-recommendations”
+   3. Created a layout component named “browse-choice-awards.”
+   4. Created a layout component named “browse-giveaways.”
+   5. Created a layout component named “home.”
+
+
+Added the following attributes to the class “top-navbar.component.css.”
+1. Added dark background color to hover
+2. Fixed the size and position of top navbar
+3. Changed size of search bar to match the original website
+4. Added a second simple navbar above 
+
+
+* Added the following attributes to the class “app-component.css”
+1. Changed background color to match website
