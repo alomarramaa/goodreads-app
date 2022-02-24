@@ -1,8 +1,33 @@
 
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <img src="assets/jubo.jpeg" alt="">
+    </div>
+  </div>
 
 
+<p class= "title"> Recommendations</p>
+<p class= "description"> Here are some books we think you'll love. How to improve your recommendations...</p>
+ <a href="a" class="interest-contemporary">YOUR INTEREST IN CONTEMPORARY</a>
+ <p class="seperate-contemporary">_______________________________________________________________________</p>
+
+ <div class="books"> 
 <div class="container-fluid d-flex flex-row">
     <div *ngFor="let product of products">
         <app-vertical-card img={{product.img}}> Loading... </app-vertical-card>
     </div>
     </div>
+</div>
+
+<div class="books"> 
+    <div class="container-fluid d-flex flex-row">
+        <div *ngFor="let product of products">
+            <app-vertical-card img={{product.img}}> Loading... </app-vertical-card>
+        </div>
+        </div>
+    </div>
+
+
+    
+                    
+    <app-footer> Loading...</app-footer>

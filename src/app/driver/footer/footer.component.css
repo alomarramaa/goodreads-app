@@ -1,9 +1,16 @@
 
   .page-footer {
-      background-color: #F7F6F2
-
+      background-color: #F7F6F2;
+      padding: 0 0 10px 0;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      margin-top: 100%;
+  
   }
+  .col{
+    color: #919190;
+  }
+  
 
-.bi{
-  color: purple;
-}
+

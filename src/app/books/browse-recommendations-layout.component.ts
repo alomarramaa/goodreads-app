@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 import { mock_product_list } from "./mock_product_list";
 import { ProductItemModel } from "./product-item.model";
 
@@ -16,4 +16,5 @@ export class BrowseRecommendationsLayoutComponent {
         }
     
       }
-} 
+     
+ }

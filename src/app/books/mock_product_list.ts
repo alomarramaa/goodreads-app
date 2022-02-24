@@ -1,16 +1,16 @@
 export const mock_product_list = [{
-    img: "./assets/assassins-blade_book.jpeg"
+    img: "./assets/it-ends-with-us.jpg"
 },
 {
-    img: "./assets/these-violent-delights_book.jpeg"
+    img: "./assets/the-love-hypothesis.jpg"
 },
 {
-    img: "./assets/from-blood-and-ash_book.jpeg"
+    img: "./assets/a-good-girls-guide-to-murder.jpg"
 },
 {
-    img: "./assets/crescent-city_book.jpeg"
+    img: "./assets/aristotle-and-dante.jpg"
 },
 {
-    img: "./assets/strange-the-dreamer_book.jpeg"
-}
-];
+    img: "./assets/november-9.jpg"
+},
+]

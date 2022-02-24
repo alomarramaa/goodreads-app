@@ -6,6 +6,7 @@
 .dropdown-item:hover{
     background-color: #382110 !important;
     color: white !important;
+    text-decoration: none;
     
 }
 .dropdown-item:visited,:active{
@@ -49,7 +50,7 @@
 
  }
  .top-navbar{
-background-color:  #B8BFFD !important;
+background-color:  #FF9E74 !important;
 height: 40px;
  }
 
@@ -82,7 +83,7 @@ height: 40px;
  a.dropdown-item:hover {
      border-bottom-style: solid;
      background-color: white;
-     text-decoration: underline;
+     text-decoration: none;
  }
  .icon-color{
      fill: #B9AD9A;
