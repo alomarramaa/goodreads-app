@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'app-my-books',
+    selector: 'app-browse-giveaways',
     templateUrl:'browse-giveaways.component.html',
     styleUrls:['browse-giveaways.component.css']
 })

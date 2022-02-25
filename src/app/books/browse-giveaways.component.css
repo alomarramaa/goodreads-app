@@ -1,0 +1,56 @@
+.title{
+    font-size: xx-large;
+    position: relative;
+    top: 5em;
+    left: 3em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.description{
+    font-size: large;
+    position: relative;
+    top: 8em;
+    left: 5.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: gray;
+
+}
+.emphasized{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    position: relative;
+    top: 9em;
+    left: 6em;
+  border-style: solid !important;
+  border: 2.5px;
+  border-radius: 20px;
+  border-color: darkgray;
+}
+.btn:hover{
+    background-color: lightgray;
+    border-style: solid !important;
+
+}
+.card{
+    position: relative;
+    top: 12em;
+    left: 6em;
+    border-style: none;
+}
+.card-title, .card-text{
+ position: relative;
+ bottom: 1em;
+}
+.bolded{
+    font-weight: bold;
+
+}
+.enter-giveaway{
+    position: relative;
+    bottom: 10.5em;
+    right: 6em;
+    border-style: none !important;
+} 
