@@ -12,6 +12,7 @@ import { HomeLayoutComponent } from './books/home-layout.component';
 import { BrowseChoiceAwardsComponent } from './books/browse-choice-awards.component';
 import { MyBooksComponent } from './books/my-books.component';
 import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
+import { GiveawayCardComponent } from './books/giveaway.card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
     HomeLayoutComponent,
     BrowseChoiceAwardsComponent,
     MyBooksComponent,
-    BrowseGiveawaysComponent
+    BrowseGiveawaysComponent,
+    GiveawayCardComponent
   ],
   imports: [
     BrowserModule,
