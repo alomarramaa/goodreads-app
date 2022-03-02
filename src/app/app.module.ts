@@ -13,7 +13,8 @@ import { BrowseChoiceAwardsComponent } from './books/browse-choice-awards.compon
 import { MyBooksComponent } from './books/my-books.component';
 import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 import { GiveawayCardComponent } from './books/giveaway.card.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,11 +28,13 @@ import { GiveawayCardComponent } from './books/giveaway.card.component';
     BrowseChoiceAwardsComponent,
     MyBooksComponent,
     BrowseGiveawaysComponent,
-    GiveawayCardComponent
+    GiveawayCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
