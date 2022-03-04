@@ -1,43 +1,55 @@
-
 <body>
- <div class="all"> 
- <p class= "title"> CURRENTLY READING</p>
-<div class="container-fluid">
+    <div class="all">
+        <p class="title"> CURRENTLY READING</p>
+        <div class="container-fluid">
 
-<div *ngFor="let category of category_list">
-<app-category-card title={{category.title}} author={{category.author}} img={{category.img}}>Loading...</app-category-card>
-</div>
+            <div *ngFor="let category of category_list">
+                <app-category-card title={{category.title}} author={{category.author}} img={{category.img}}>Loading...
+                </app-category-card>
+            </div>
 
-<div class="container-fluid d-flex">
-    <app-horizontal-card> Loading...</app-horizontal-card>
-    <app-horizontal-card> Loading...</app-horizontal-card>
-</div>
-</div>
-</div>
+            <div class="container-fluid d-flex">
+                <app-horizontal-card> Loading...</app-horizontal-card>
+                <app-horizontal-card> Loading...</app-horizontal-card>
+            </div>
+        </div>
 
-<div class="col-3">
-<div class ="minor">
-    <p class="minor-links">See more ∙ Add a book ∙ General update</p>
-  </div>
+    </div>
 
-  <div class="reading-challenge">
-    <p class="reading-challenge-text">2022 READING CHALLENGE</p>
-    <p class="reading-challenge-description">Challenge yourself to read more this year!</p>
-   
-    <img src="assets/reading-challenge-picture.png" alt="" style="width: 30%;">
-</div>
+    <div class="col-3">
+        <div class="minor">
+            <p class="minor-links">See more ∙ Add a book ∙ General update</p>
+        </div>
+        <p class="seperate">______________________________</p>
+
+        <div class="reading-challenge">
+            <p class="reading-challenge-text">2022 READING CHALLENGE</p>
+            <p class="reading-challenge-description">Challenge yourself to read more this year!</p>
+
+            <img src="assets/reading-challenge-picture.png" alt="" style="width: 30%;">
+            <p class="reading-challenge-title">I want to read</p>
+            <div class="toggle">
+                <input type="number" autocomplete="off" placeholder="0" class="u-marginBottomXSmall"
+                    aria-label="Number of books you want to read in 2022" data-reactid=".60xz7yr2ww.1.1.1.1">
+            </div>
+            <p class="reading-challenge-books">books in 2022</p>
+            <button type="button" class="btn btn-outline-primary"> 
+            <p class="button-text">Start Challenge</p>
+        </button>
+        <p class="reading-challenge-final"> You can change your goal at any time</p>
+        </div>
+    </div>
 
 
-  </div>
+    <div class="col-3">
+        <div class="want-to-read">
+
+            <p class="want-to-read-title">WANT TO READ</p>
+        </div>
+    </div>
 
 
 
 
 
-
-<app-footer>  loading...</app-footer>
-
-
-
-
-
+    <app-footer> loading...</app-footer>

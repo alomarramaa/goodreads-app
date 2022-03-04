@@ -12,6 +12,7 @@ body {
    
   .minor-links{
     font-size: small;
+    color: #437F7B;
   }
   .reading-challenge-text{
     font-size: small;
@@ -20,8 +21,64 @@ body {
   .reading-challenge-description{
     font-size: small;
   }
+.seperate{
+  position: relative;
+  bottom: 1em;
+  color: #D8D8D8;
+  font-weight: 200;
 
+}
   .col-3{
     position: relative;
     left: 2.5em;
+  }
+  .reading-challenge-title{
+    font-size: small;
+    position: relative;
+    left: 9em;
+    bottom: 10em;
+  }
+  .toggle{
+
+    position: relative;
+    left: 7.4em;
+    bottom: 9em;
+  }
+  .u-marginBottomXSmall{
+    max-width: 75px !important;
+
+  }
+ 
+  .reading-challenge-books{
+    font-size: small;
+    position: relative;
+    left: 9em;
+    bottom: 9.5em;
+  }
+  .btn{
+    border-color: #D6D0C4; 
+    border-width: 1.5px;
+    max-height: 35px;
+    background-color: #F3F1EA;
+    font-size: small;
+    size: 10%;
+    position: relative;
+    bottom: 10.5em;
+    left: 8.5em;
+  }
+  .btn:hover{
+    background-color: #EDE6D6;
+  }
+  .button-text{
+  color: #333333;
+  text-align: center;
+  }
+
+  .reading-challenge-final{
+    position: relative;
+    bottom: 10em;
+    left: 0em;
+    font-size: small;
+    color: #767676;
+    font-family: 'Times New Roman', Times, serif;
   }
