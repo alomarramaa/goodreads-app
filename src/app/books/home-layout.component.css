@@ -2,3 +2,26 @@
 body {
     background-color: #F9F7F3 !important;
   }
+  .title{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0em;
+    left: 2.75em;
+  }
+   
+  .minor-links{
+    font-size: small;
+  }
+  .reading-challenge-text{
+    font-size: small;
+    font-weight: bold;   
+  }
+  .reading-challenge-description{
+    font-size: small;
+  }
+
+  .col-3{
+    position: relative;
+    left: 2.5em;
+  }

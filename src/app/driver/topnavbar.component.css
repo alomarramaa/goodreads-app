@@ -1,4 +1,9 @@
 
+
+    body {
+        background-color: #F9F7F3 !important;
+      }
+
 .dropdown-item{
     position: relative;
     top: 0.25em;
@@ -20,13 +25,13 @@
     border-bottom: 1px solid #DDDBD7;;
     max-height: 80px !important;
  }
- .black-history-month-icon{
+ .women-history-month-icon{
    position: relative;
    top: 0.25em;
    left: 28em;
  }
  .nav-link{
-    color:#382110 !important;
+    color:#382110;
 }
  .top-navbar-text{
      position: relative;

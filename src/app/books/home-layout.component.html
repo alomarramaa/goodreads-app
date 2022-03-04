@@ -1,15 +1,9 @@
 
-
-    
-
-
-
-
-
 <body>
-    
-
+ <div class="all"> 
+ <p class= "title"> CURRENTLY READING</p>
 <div class="container-fluid">
+
 <div *ngFor="let category of category_list">
 <app-category-card title={{category.title}} author={{category.author}} img={{category.img}}>Loading...</app-category-card>
 </div>
@@ -18,10 +12,30 @@
     <app-horizontal-card> Loading...</app-horizontal-card>
     <app-horizontal-card> Loading...</app-horizontal-card>
 </div>
+</div>
+</div>
 
-<app-footer>
-    loading...
-</app-footer>
+<div class="col-3">
+<div class ="minor">
+    <p class="minor-links">See more ∙ Add a book ∙ General update</p>
+  </div>
+
+  <div class="reading-challenge">
+    <p class="reading-challenge-text">2022 READING CHALLENGE</p>
+    <p class="reading-challenge-description">Challenge yourself to read more this year!</p>
+   
+    <img src="assets/reading-challenge-picture.png" alt="" style="width: 30%;">
+</div>
+
+
+  </div>
+
+
+
+
+
+
+<app-footer>  loading...</app-footer>
 
 
 

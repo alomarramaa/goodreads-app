@@ -3,5 +3,6 @@ export class ProductItemModel {
     constructor(img: string) {
         this.img = img;
     }
+    
 
 }
