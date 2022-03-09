@@ -28,13 +28,13 @@
     max-width: 30rem;
   }
   .giveaway-banner{
-    max-height: 28%;
+    max-height: 17%;
     max-width: 30rem;
     border-style: solid;
     border-width: 0.1em;
     border-color: #D8D8D8;
     position: absolute;
-    top: 7em;
+    top: 0em;
     right: 25em;
     background-color: white;
   }
@@ -46,7 +46,7 @@
     }
     .card-banner{
       position: absolute;
-      top: 19em;
+      top: 15em;
       right: 7.5em;
       font-weight: bold;
       font-size: 13px;
@@ -102,20 +102,20 @@
     font-weight: 450;
     font-size: 90%;
     position: relative;
-    top: 0em;
+    top: 0.5em;
     left: 0em;
     color: #333333;
 
   }
   .bi{
     position: relative;
-    bottom: 2.75em;
+    bottom: 2em;
     left: 24.6em;
     color: #767676;
   }
   .customize{
     position: relative;
-    bottom: 4.85em;
+    bottom: 4em;
     left: 32em;
     font-size: small;
     color: #767676;
