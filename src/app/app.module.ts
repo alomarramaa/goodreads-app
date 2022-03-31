@@ -14,7 +14,8 @@ import { MyBooksComponent } from './books/my-books.component';
 import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 import { GiveawayCardComponent } from './books/giveaway.card.component';
 import { HttpClientModule } from '@angular/common/http';
-import { UserInfoComponent } from './user-info/user-info.component'
+import { UserInfoComponent } from './user-info/user-info.component';
+import { AddProductComponent } from './books/add-product/add-product.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { UserInfoComponent } from './user-info/user-info.component'
     MyBooksComponent,
     BrowseGiveawaysComponent,
     GiveawayCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
