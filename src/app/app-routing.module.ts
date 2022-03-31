@@ -8,9 +8,11 @@ import { MyBooksComponent } from './books/my-books.component';
 import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 import { AddProductComponent } from './books/add-product/add-product.component';
 
+
+
 const routes: Routes = [
   { path: 'home', component: HomeLayoutComponent },
-  { path: 'admin', component: AddProductComponent },
+  { path: 'home', component: AddProductComponent },
   { path: 'Browse-Recommendations', component: BrowseRecommendationsLayoutComponent },
   { path: 'Home', component: HomeLayoutComponent },
   { path: 'Browse-Choice-Awards', component: BrowseChoiceAwardsComponent},

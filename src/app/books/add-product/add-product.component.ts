@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductItemModel } from '../product-item.model';
-import { ProductsService } from '../products.service';
 
 @Component({
   selector: 'gr-add-product',
@@ -9,14 +7,9 @@ import { ProductsService } from '../products.service';
 })
 export class AddProductComponent implements OnInit {
 
-  constructor(private ps:ProductsService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
-  
-addProduct(product:ProductItemModel){
-  console.log("You clicked add product");
-  console.log(product);
-  this.ps.addProduct(product);
-}
+
 }
