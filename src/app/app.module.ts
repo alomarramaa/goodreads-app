@@ -15,7 +15,13 @@ import { BrowseGiveawaysComponent } from './books/browse-giveaways.component';
 import { GiveawayCardComponent } from './books/giveaway.card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { AddProductComponent } from './books/add-product/add-product.component'
+import { AddProductComponent } from './books/add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +42,11 @@ import { AddProductComponent } from './books/add-product/add-product.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
+
   ],
   providers: [],
   bootstrap: [AppComponent]
