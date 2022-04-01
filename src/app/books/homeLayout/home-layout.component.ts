@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { category_list } from "../categories/category_list";
+import { category_list } from "../../categories/category_list";
 
 
 @Component({

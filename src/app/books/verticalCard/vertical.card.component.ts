@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from "@angular/core";
-import { ProductItemModel } from "./product-item.model";
-import { ProductsService } from "./products.service";
+import { ProductItemModel } from "../product-item.model";
+import { ProductsService } from "../products.service";
 
 @Component({
     selector: 'app-vertical-card',
