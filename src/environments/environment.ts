@@ -5,13 +5,13 @@
 export const environment = {
   firebase: {
     projectId: 'goodreads-9170c',
-    appId: '1:20174072525:web:c5850cad3a46bc6620d784',
+    appId: '1:20174072525:web:30d3fcc2e887e0d020d784',
     databaseURL: 'https://goodreads-9170c-default-rtdb.firebaseio.com',
     storageBucket: 'goodreads-9170c.appspot.com',
     apiKey: 'AIzaSyCO3UVzTD-X9bpX-L05wBHLRzRKcPEdM9w',
     authDomain: 'goodreads-9170c.firebaseapp.com',
     messagingSenderId: '20174072525',
-    measurementId: 'G-Q4YVKF14W1',
+    measurementId: 'G-YSWPBYDSSX',
   },
   production: false
 };
