@@ -22,7 +22,7 @@ export class ProductsService {
        
     }
 
-    addProduct(product: ProductItemModel) {
-    this.db.list<ProductItemModel>("products").push(product);
-    }
+  addProduct(product:ProductItemModel) {
+      this.db.list<ProductItemModel>("products").push(product);
+  }
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductItemModel } from '../product-item.model';
+import { ProductsService } from '../products.service';
 
 @Component({
   selector: 'gr-add-product',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddProductComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ps:ProductsService) { }
 
   ngOnInit(): void {
+  }
+
+  addProduct(product:ProductItemModel){
+    this.ps.addProduct(product);
   }
 
 }
