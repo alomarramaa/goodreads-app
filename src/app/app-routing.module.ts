@@ -7,6 +7,7 @@ import { BrowseChoiceAwardsComponent} from './books/browseChoiceAwards/browse-ch
 import { MyBooksComponent } from './books/myBooks/my-books.component';
 import { BrowseGiveawaysComponent } from './books/browseGiveaways/browse-giveaways.component';
 import { AddProductComponent } from './books/add-product/add-product.component';
+import { AuthComponent } from './auth/auth.component';
 
 
 
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'Browse-Choice-Awards', component: BrowseChoiceAwardsComponent},
   { path: 'My-Books', component: MyBooksComponent},
   { path: 'Browse-Giveaways', component: BrowseGiveawaysComponent},
+  { path: 'auth', component: AuthComponent},
 ];
 
 @NgModule({

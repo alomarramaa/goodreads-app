@@ -22,6 +22,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AddProductComponent } from './books/add-product/add-product.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AuthComponent } from './auth/auth.component';
 
 
 
@@ -46,7 +47,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     BrowseGiveawaysComponent,
     GiveawayCardComponent,
     UserInfoComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
