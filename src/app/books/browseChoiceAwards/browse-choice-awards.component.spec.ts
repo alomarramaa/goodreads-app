@@ -1,5 +1,5 @@
 import { DebugElement } from '@angular/core';
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { BrowseChoiceAwardsComponent } from './browse-choice-awards.component';
 
@@ -27,11 +27,31 @@ describe('BrowseChoiceAwardsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create app', () => {
     expect(component).toBeDefined();
   });
 
   it('should display browse choice award title', () => {
+    expect(cardEl.textContent).toContain(expectedBrowseChoiceAwardTitle);
+  });
+
+  it('should display browse choice award author', () => {
     expect(cardEl.textContent).toContain(expectedAuthor);
   });
-});
+
+  it('should render title in a h1 tag', async(() => {
+    const fixture = TestBed.createComponent(BrowseChoiceAwardsComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+  expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-unit-test!');
+ }));
+
+ it('should convert hero name to Title Case', () => {
+  // get the name's input and display elements from the DOM
+  const hostElement: HTMLElement = fixture.nativeElement;
+  const nameInput: HTMLInputElement = hostElement.querySelector('input')!;
+  const nameDisplay: HTMLElement = hostElement.querySelector('span')!;
+
+
+
+
