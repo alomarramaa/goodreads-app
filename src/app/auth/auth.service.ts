@@ -18,6 +18,6 @@ public signup(email:string, password:string){
         "password":password,
         "returnSecureToken": true
     };
-    return this.http.post(`${this.baseUrl}:${this.signUpEndpoint}?key=${environment.firebase.apiKey}`, requestPayload);
+    return this.http.post(this.baseUrl + ':' + this.signUpEndpoint + '?' + 'key=' + environment.firebase.apiKey, requestPayload);
 }
 }

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'app-browse-choice-awards',
@@ -6,7 +6,10 @@ import { Component } from "@angular/core";
     styleUrls:['browse-choice-awards.component.css']
 })
 export class BrowseChoiceAwardsComponent{
-    
+    @Input()
+    title!: string;
+    @Input()
+    author!: string;
   
 
 }
