@@ -23,6 +23,7 @@ import { AddProductComponent } from './books/add-product/add-product.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AuthComponent } from './auth/auth.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -48,7 +49,8 @@ import { AuthComponent } from './auth/auth.component';
     GiveawayCardComponent,
     UserInfoComponent,
     AddProductComponent,
-    AuthComponent
+    AuthComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

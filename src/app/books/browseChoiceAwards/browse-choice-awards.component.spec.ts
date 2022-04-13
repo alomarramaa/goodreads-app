@@ -51,7 +51,3 @@ describe('BrowseChoiceAwardsComponent', () => {
   const hostElement: HTMLElement = fixture.nativeElement;
   const nameInput: HTMLInputElement = hostElement.querySelector('input')!;
   const nameDisplay: HTMLElement = hostElement.querySelector('span')!;
-
-
-
-

@@ -1,0 +1,59 @@
+.card{
+    position: relative;
+    top: 8em;
+    height: 40em;
+    left: 30em;
+}
+.body, .html{
+    background-color:#F9F7F3 !important;
+}
+
+.facebook{
+    background-color: #3B5897 !important;
+    color: white;
+}
+
+.amazon{
+    background-color: #F6D37A;
+    color: black;
+}
+.apple{
+    border-radius: 1px;
+    border-color: black;
+    width: 25.9em;
+}
+.google{
+    border-radius: 1px;
+    border-color: black;
+    width: 25.9em;
+}
+
+.form-group{
+    position: relative;
+    bottom: 10em;
+    left: 2em;
+    width: 25.9em;
+}
+.label{
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    top: .2em;
+
+}
+
+.form-check{
+    position: relative;
+    bottom: 10em;
+    left: 2em;
+}
+.btn-light {
+    position: relative;
+    bottom: 9em;
+    right: 9em;
+    width: 7em;
+    background-color: #F3F1EA;
+    border-radius: 2px;
+    border-color: #D6D0C4;
+}
