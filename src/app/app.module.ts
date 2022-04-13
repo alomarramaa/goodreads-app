@@ -24,6 +24,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AuthComponent } from './auth/auth.component';
 import { LoginComponent } from './login/login.component';
+import { NewReleasesComponent } from './newReleases/new-releases.component';
 
 
 
@@ -50,7 +51,8 @@ import { LoginComponent } from './login/login.component';
     UserInfoComponent,
     AddProductComponent,
     AuthComponent,
-    LoginComponent
+    LoginComponent,
+    NewReleasesComponent
   ],
   imports: [
     BrowserModule,
