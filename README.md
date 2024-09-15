@@ -2,26 +2,60 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
-## Development server
+Goodreads App is a full-stack recreation of the popular Goodreads website, built to provide users with a seamless way to track, review, and discover books. With a focus on modern web technologies, this project delivers a clean and intuitive interface where users can browse books, read reviews, and manage their reading lists.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **HTML5**
+- **CSS3**
+- **Bootstrap**
+- **Angular**
+-  **TypeScript**
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation & Setup
 
-## Running unit tests
+To run this project locally:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **Clone the repository:**
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/yourusername/goodreads-app.git
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Navigate to the project directory:**
 
-## Further help
+   ```bash
+   cd goodreads-app
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Install dependencies for both client and server:**
+
+   Navigate to the client folder and install Angular dependencies:
+
+   ```bash
+   cd client
+   npm install
+   ```
+
+   Navigate to the server folder and install backend dependencies:
+
+   ```bash
+   cd ../server
+   npm install
+   ```
+
+4. **Run the Angular development server:**
+
+   ```bash
+   cd client
+   ng serve
+   ```
+
+   The client will be available at `http://localhost:4200`.
+
+
+## License
+This project is licensed under the MIT License.
+
